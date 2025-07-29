@@ -10,11 +10,11 @@ const API = axios.create({
 console.log(API)
 
 export const sendOtp = (mobile) => {
- // return API.post('/api-v3/app/getotp', { mobile });
+  return API.post('/api-v3/app/getotp', { mobile });
 };
 
 export const verifyOtp = (mobile, otp) => {
- // return API.post( '/api-v2/app/verifyotp', { mobile, otp });
+  return API.post( '/api-v2/app/verifyotp', { mobile, otp });
 };
 
 

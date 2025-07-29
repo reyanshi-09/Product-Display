@@ -44,20 +44,6 @@ function Login() {
 
 
 
-  // const handleLoginSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   if (!phone || phone.length < 10) {
-  //     showError("Please enter a valid 10-digit phone number.");
-  //     return;
-  //   }
-
-  //   clearMessage();
-
-  //   // ✅ Bypass OTP and go directly to QR scanner
-  //   navigate("/scanner");
-
-  // };
   const navigate = useNavigate();
   const handleOtpSubmit = async (e) => {
     e.preventDefault();
